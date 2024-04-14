@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Méta GeoGuessr</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Méta GeoGuessr</h1>
+    </header>
+    <main>
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Rechercher...">
+            <!--<button id="search-button"><img src="images/icons/loupe.png"></button>-->
+            <div id="right">
+            <select id="sort-select">
+                <option value="meta" selected>Méta</option>
+                <option value="continent">Continent</option>
+            </select>
+            </div>
+        </div>
+        <div class="carte-container"></div>
+        <div id="block-container" class="grid-container">
+            <!-- Contenu des blocs sera ajouté dynamiquement ici -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Méta GeoGuessr</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

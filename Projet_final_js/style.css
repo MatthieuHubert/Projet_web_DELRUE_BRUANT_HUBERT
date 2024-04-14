@@ -1,0 +1,93 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f9; /* Light sky blue background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6969BB; /* Softer sky blue */
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: #6969BB;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    /* Removed 'position: fixed' and 'bottom: 0' */
+}
+
+/* Search and sorting container */
+#search-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#search-input {
+    padding: 8px;
+    width: 70%;
+    border: 2px solid #6969BB; /* Border color */
+}
+
+#sort-select {
+    padding: 8px;
+    border: 2px solid #6969BB;
+    background-color: #fff;
+}
+
+/* Grid container for blocks */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+.block {
+    border: 1px solid #dee2e6; /* Beige border */
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.block h2 {
+    background-color: #6969BB;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+.block p {
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.block-image {
+    width: 100%;
+    height: 75%; /* Make image fill the container height */
+    object-fit: cover; /* Cover the area without stretching */
+    object-position: center; /* Center the image within the container */
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
