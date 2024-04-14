@@ -1,3 +1,9 @@
+Projet "Méta Géoguessr"
+
+BRUANT Thibault
+DELRUE Cyprien
+HUBERT Matthieu
+
 Pour ce projet en Développement Web, nous avons décidé de créer un site regroupant des astuces à connaître afin de progresser sur le jeu geoguessr.
 Dans ce jeu, nous sommes placés à un endroit aléatoire sur google street view et nous devons nous retrouver sur la carte du monde.
 Nous pouvons aussi bien chercher l'endroit exact au mètre près ou simplement chercher le pays dans lequel nous nous trouvons, c'est sur cet aspect que nous allons nous pencher.
